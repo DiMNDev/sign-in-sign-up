@@ -12,6 +12,61 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div class="container">
+      <h1 class="heading">
+        <span class="heading-span-1">Sign</span>
+        <span class="heading-span-2">In</span>
+      </h1>
+      <div class="buttons">
+        <button class="signin-btn">Sign In</button>
+        <button class="signup-btn">Sign Up</button>
+      </div>
+      <div class="form-bg"></div>
+      <form class="form sign-in">
+        <div class="form-input-wrapper">
+          <input
+            type="text"
+            class="form-input"
+            id="username"
+            placeholder="Your name?"
+            autocomplete="off"
+          />
+          <p class="message">Error Message</p>
+        </div>
+        <div class="form-input-wrapper">
+          <input
+            type="text"
+            class="form-input"
+            id="email"
+            placeholder="Email address?"
+            autocomplete="off"
+          />
+          <p class="message">Error Message</p>
+        </div>
+        <div class="form-input-wrapper">
+          <input
+            type="password"
+            class="form-input"
+            id="password"
+            placeholder="Your password?"
+            autocomplete="off"
+          />
+          <p class="message">Error Message</p>
+        </div>
+        <div class="form-input-wrapper">
+          <input
+            type="password"
+            class="form-input"
+            id="password2"
+            placeholder="Confirm password"
+            autocomplete="off"
+          />
+          <p class="message">Error Message</p>
+        </div>
+        <input type="submit" value="Submit" class="form-btn" />
+      </form>
+    </div>
+
     <script src="script.js"></script>
   </body>
 </html>
